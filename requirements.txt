@@ -1,5 +1,5 @@
 streamlit>=1.36,<2
-opencv-python-headless>=4.10,<5
+opencv-python-headless==4.10.0.84
 mediapipe>=0.10.14,<0.11
 numpy>=1.26,<3
 scikit-learn>=1.4,<2
