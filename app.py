@@ -41,7 +41,7 @@ def analyze_image(image_bytes: bytes):
     return cv2.cvtColor(frame, cv2.COLOR_BGR2RGB), posture
 
 
-st.title("🧍 Smart Posture Detection")
+st.title(" Smart Posture Detection")
 st.write("Prenez une photo face à la caméra pour analyser votre posture.")
 
 with st.sidebar:
