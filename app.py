@@ -13,7 +13,7 @@ from detector.posture_analyzer import PostureAnalyzer
 from utils.drawing_utils import draw_points
 
 
-st.set_page_config(page_title="Smart Posture Detection", page_icon="🧍", layout="wide")
+st.set_page_config(page_title="Smart Posture Detection", layout="wide")
 
 
 @st.cache_resource
