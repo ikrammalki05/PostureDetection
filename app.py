@@ -171,4 +171,4 @@ else:
                 "Aucune posture détectée. "
                 "Essayez de mieux vous cadrer."
             )
-```
+
