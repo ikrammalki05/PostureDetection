@@ -1,4 +1,3 @@
-```python
 """Interface Web Streamlit pour la détection de posture.
 
 L'image est prise depuis la caméra du navigateur, puis analysée sur le
