@@ -13,7 +13,7 @@ from detector.posture_analyzer import PostureAnalyzer
 from utils.drawing_utils import draw_points
 
 
-st.set_page_config(page_title="Smart Posture Detection", page_icon="🧍", layout="wide")
+st.set_page_config(page_title="Smart Posture Detection", layout="wide")
 
 
 @st.cache_resource
@@ -41,7 +41,7 @@ def analyze_image(image_bytes: bytes):
     return cv2.cvtColor(frame, cv2.COLOR_BGR2RGB), posture
 
 
-st.title("🧍 Smart Posture Detection")
+st.title(" Smart Posture Detection")
 st.write("Prenez une photo face à la caméra pour analyser votre posture.")
 
 with st.sidebar:
